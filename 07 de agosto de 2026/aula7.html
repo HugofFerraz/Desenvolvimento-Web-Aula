@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="" method="post">
+        <p>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" size="20" maxlength="20" placeholder="Digite seu nome" required>
+        </p>
+        <p>
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome">
+        </p>
+        <p>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" placeholder="(00) 00000-0000">
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="seuemail@gmail.com">
+        </p>
+            <label for="url">URL:</label>
+            <input type="url" name="url" id="url"placeholder="https://www.site.com">
+        <p>
+            <label for="nota">Nota:</label>
+            <input type="number" name="nota" id="nota" min="0" max="10" step="2">
+        </p>
+        <p>
+            <label for="range">Range:</label>
+            <input type="range" name="range" id="range" min="0" max="10" step="2">
+        </p>
+        <p>
+            <label for="data">Data:</label>
+            <input type="date" name="data" id="data" min="2026-08-07" max="2026-09-10">
+        </p>
+        <p>
+            <label for="mes">Mês:</label>
+            <input type="month" name="mes" id="mes">
+        </p>
+        <p>
+            <label for="semana">Semana:</label>
+            <input type="week" name="semana" id="semana">
+        </p>
+        <p>
+            <label for="hora">Hora:</label>
+            <input type="time" name="hora" id="hora" min="19:00" max="23:00" step="300">
+        </p>
+        <p>
+            <label for="datahora">Data e Hora:</label>
+            <input type="datetime-local" name="datahora" id="datahora">
+        </p>
+        <p>
+            <label for="hidden">Hidden:</label>
+            <input type="hidden" name="hidden" id="hidden">
+        </p>
+        <p>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha">
+        </p>
+        <p>
+            <label for="arquivo">Arquivo:</label>
+            <input type="file" name="arquivo" id="arquivo">
+        </p>
+        <p>
+            <input type="submit" value="Enviar Dados">
+            <button type="button" onclick="mensagem()">Executar Função</button>
+            <input type="reset" value="Limpar Campos">
+        </p>
+    </form>
+    <script>
+        function mensagem(){
+            alert("Boa noite!");
+        }
+    </script>
+</body>
+</html>

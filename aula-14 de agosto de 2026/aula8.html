@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Estado Civil</legend>
+            <p>
+                <input type="radio" name="estado_civil" id="casado" value="casado">
+                <label for="casado">Casado</label>
+            </p>
+            <p>
+                <input type="radio" name="estado_civil" id="divorciado" value="divorciado">
+                <label for="divorciado">Divorciado</label>
+            </p>
+            <p>
+                <input type="radio" name="estado_civil" id="solteiro" value="solteiro">
+                <label for="solteiro">Solteiro</label>
+            </p>
+            <p>
+                <input type="radio" name="estado_civil" id="viuvo" value="viuvo">
+                <label for="viuvo">Viuvo</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Equipamentos</legend>
+            <p>
+                <input type="checkbox" name="monitor" id="monitor" value="monitor">
+                <label for="monitor">Monitor</label>
+            </p>
+            <p>
+                <input type="checkbox" name="impressora" id="impressora" value="impressora">
+                <label for="impressora">Impressora</label>
+            </p>
+            <p>
+                <input type="checkbox" name="mouse" id="mouse" value="mouse">
+                <label for="mouse">Mouse</label>
+            </p>
+            <p>
+                <input type="checkbox" name="teclado" id="teclado" value="teclado">
+                <label for="teclado">Teclado</label>
+            </p>
+        </fieldset>
+        <p>
+                <label for="search">Busca:</label>
+                <input type="search" name="search" id="search">
+        </p>
+        <p>
+            <label for="cor">Cor:</label>
+            <input type="color" name="color" id="color">
+        </p>
+        <p>
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem" rows="5" cols="30"></textarea>
+        </p>
+        <p>
+            <label for="estado">Estado:</label>
+            <select name="estado" id="estado">
+                <option value="0" disabled selected>Escolha uma opção</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="SP">São Paulo</option>
+            </select>
+        </p>
+        <p>
+            <label for="meios_transporte">Meio de Transporte</label>
+            <select name="meios_transporte" id="meios_transporte">
+                <optgroup label="Carros">
+                    <option value="fusca">Fusca</option>
+                    <option value="onix">Onix</option>
+                </optgroup>
+                <optgroup label="Motocicletas">
+                    <option value="cg125">CG 125</option>
+                    <option value="falcon">Falcon</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="Enviar Dados">
+        </p>
+    </form>
+    <hr>
+    <details>
+        <summary>Exibir/Ocultar</summary>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </details>
+</body>
+</html>

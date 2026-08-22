@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+
+h1{
+    font-family: "Smooch Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+p{
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    /* text-align: right; */
+    text-decoration: underline;
+    text-indent: 100px;
+    text-transform: uppercase;
+}
+
+.um {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
+  
+}
+
+.dois {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+}

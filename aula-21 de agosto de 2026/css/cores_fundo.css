@@ -1,0 +1,14 @@
+body{
+    height: 100vh;
+    background-color: cornflowerblue;
+    text-align: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: scroll;
+}
+
+h1{
+    color:aliceblue;
+    text-align: center;
+}

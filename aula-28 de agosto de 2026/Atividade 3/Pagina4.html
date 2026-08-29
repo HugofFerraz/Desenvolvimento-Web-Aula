@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina4</title>
+    <link rel="stylesheet" href="css/styles4.css">
+</head>
+<body>
+    <h1>Formulário de Contratação:</h1>
+    <hr>
+    <form action="" method="post">
+        <p>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" size="20" maxlength="50" placeholder="Digite seu nome completo" required>
+        </p>
+        <p>
+            <label for="data">Data de nascimento:</label>
+            <input type="date" name="data" id="data">
+        </p>
+        <fieldset>
+            <p>
+                <label for="sexo">Sexo:</label>
+                <select name="sexo" id="sexo">
+                    <option value="0" disabled selected>Escolha uma opção</option>
+                    <option value="MASC">Masculino</option>
+                    <option value="FEM">Feminino</option>
+                    <option value="NB">Não-binário</option>
+                    <option value="PNI">Prefiro não informar</option>
+                </select>
+            </p>
+        </fieldset>
+        <table border="1">
+            <tr>
+                <th colspan="4">Endereço</th>
+            </tr>
+            <tr>
+                <td><label for="rua">Rua:</label></td>
+                <td><input type="text" name="rua" id="rua" placeholder="Digite a rua" required></td>
+            </tr>
+            <tr>
+                <td><label for="número">Número:</label></td>
+                <td><input type="number" name="numero" id="numero" placeholder="Digite o número" required></td>
+            </tr>
+            <tr>
+                <td><label for="bairro">Bairro:</label></td>
+                <td><input type="text" name="bairro" id="bairro" placeholder="Digite o bairro" required></td>
+            </tr>
+            <tr>
+                <td><label for="estado">Estado:</label></td>
+                <td><input type="text" name="estado" id="estado" placeholder="Digite o estado" required></td>
+            </tr>
+            <tr>
+                <td><label for="cidade">Cidade:</label></td>
+                <td><input type="text" name="cidade" id="cidade" placeholder="Digite a cidade" required></td>
+            </tr>
+        </table>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="seuemail@gmail.com" required>
+        </p>
+        <p>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" placeholder="(00) 00000-0000" required>
+        </p>
+        <p>
+            <label for="arquivo">Arquivo em formato PDF:</label>
+            <input type="file" name="arquivo" id="arquivo">
+        </p>
+        <p>
+            <input type="submit" value="Enviar Dados">
+            <button type="button" onclick="mensagem()">Executar Função</button>
+            <input type="reset" value="Limpar Campos">
+        </p>
+    </form>
+    <script>
+        function mensagem(){
+            alert("Seus dados estarão seguros conosco!");
+        }
+    </script>
+    <hr>
+    <footer>
+        <a href="pagina3.html"><</a>
+        <a href="pagina1.html">1</a>
+        <a href="pagina2.html">2</a>
+        <a href="pagina3.html">3</a>
+        <a href="pagina1.html">></a>
+    </footer>
+</body>
+</html>

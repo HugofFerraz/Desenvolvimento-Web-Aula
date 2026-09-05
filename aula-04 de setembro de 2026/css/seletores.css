@@ -1,0 +1,42 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: blue;
+}
+
+.titulo1 {
+    color: blueviolet;
+}
+
+p{
+    color: rgb(15, 199, 15);
+}
+
+p[title="Primeiro Paragrafo"]{
+    color: red;
+} */
+
+#exemplo2 {
+    color: goldenrod;
+}
+
+input:focus {
+    background-color: chartreuse;
+}
+
+a:visited {
+    color: orangered;
+}
+
+p::first-letter {
+    color: red;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}

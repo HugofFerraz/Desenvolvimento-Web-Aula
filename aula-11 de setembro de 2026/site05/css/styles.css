@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+nav {
+    background-color: cornflowerblue;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    width: 80%;
+    padding: 1%;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+}

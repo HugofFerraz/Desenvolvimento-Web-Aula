@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container1">
+        <header>
+            <nav>
+                <img src="imagens/sasuke-naruto.gif" alt="Logo" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+                <div class="btn">
+                    <button type="button">Cadastro</button>
+                </div>
+            </nav>
+            <div class="texto">
+                <h1>Lorem ipsum dolor sit.</h1>
+            </div>
+        </header>
+        <section id="produtos">
+            <div class="conteudo">
+                <h1>Produtos</h1>
+                <div class="cards">
+                    <div class="card">
+                        <img src="imagens/4-36-1024x1024.jpg" alt="card">
+                        <h2>Produto</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque commodi excepturi atque, quae
+                            cum odio.</p>
+                        <h3>R$ 99,90</h3>
+                        <div class="estrela">
+                            <img src="imagens/avaliacao.png" alt="estrela">
+                        </div>
+                        <button type="button" class="btn-comprar">Comprar</button>
+                    </div>
+                    <div class="card">
+                        <img src="imagens/4-36-1024x1024.jpg" alt="card">
+                        <h2>Produto</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque commodi excepturi atque, quae
+                            cum odio.</p>
+                        <h3>R$ 99,90</h3>
+                        <div class="estrela">
+                            <img src="imagens/avaliacao.png" alt="estrela">
+                        </div>
+                        <button type="button" class="btn-comprar">Comprar</button>
+                    </div>
+                    <div class="card">
+                        <img src="imagens/4-36-1024x1024.jpg" alt="card">
+                        <h2>Produto</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque commodi excepturi atque, quae
+                            cum odio.</p>
+                        <h3>R$ 99,90</h3>
+                        <div class="estrela">
+                            <img src="imagens/avaliacao.png" alt="estrela">
+                        </div>
+                        <button type="button" class="btn-comprar">Comprar</button>
+                    </div>
+                    <div class="card">
+                        <img src="imagens/4-36-1024x1024.jpg" alt="card">
+                        <h2>Produto</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque commodi excepturi atque, quae
+                            cum odio.</p>
+                        <h3>R$ 99,90</h3>
+                        <div class="estrela">
+                            <img src="imagens/avaliacao.png" alt="estrela">
+                        </div>
+                        <button type="button" class="btn-comprar">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container2">
+                <h1>Contato</h1>
+                <form action="">
+                    <p>
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome">
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </p>
+                    <p>
+                        <label for="motivo">Motivo</label>
+                        <select name="motivo" id="motivo">
+                            <option value="0" selected disabled>Escolha uma opção</option>
+                            <option value="Elogio">Elogio</option>
+                            <option value="Reclamação">Reclamação</option>
+                            <option value="Dúvida">Dúvida</option>
+                            <option value="Solicitação">Solicitação</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="mensagem">Mensagem</label>
+                        <textarea name="mensagem" id="mensagem"></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" value="Enviar Dados">
+                    </p>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="conteudo">
+                <div class="rodape">
+                    <div class="um">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae debitis dignissimos ad
+                            illo ducimus asperiores natus eum nihil quasi veniam nesciunt ab, dolor sapiente eaque
+                            ratione accusamus quisquam? Blanditiis, officia?</p>
+                    </div>
+                    <div class="dois">
+                        <h2>Redes Sociais</h2>
+                        <div class="redes-sociais">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="tres">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, maiores ad. Quaerat
+                            expedita veritatis quibusdam! Odio blanditiis dolorum dolor veniam quidem debitis ea modi
+                            ipsa rerum, perspiciatis harum dolores minima!</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function abrirMenu(){
+            let menu = document.getElementById
+            ("menu");
+
+            if(menu.style.display == "block"){
+                menu.style.display = "none";
+            }else{
+                menu.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let i = 1;
+        //Laço de repetição com condição no inicio
+        /*
+        while(i <= 10){
+            document.write("Mensagem " + i + "<br>");
+            i++;
+        }
+        */
+
+        //Laço de repetição com condição no final
+        /*
+        let resp = true;
+        while(resp){
+            document.write("Mensagem " + i + "<br>");
+            i++;
+            resp = confirm("Deseja continuar?");
+        }
+        */
+
+        //Laço de repetição com condição no final
+        /*
+        do{
+            document.write("Mensagem " + i + "<br>");
+            i++;
+        }while(i <= 10);
+        */
+        
+        //Laço de repetição com condição no final
+        /*
+        let resp = true;
+        do{
+            document.write("Mensagem " + i + "<br>");
+            i++;
+            resp = confirm("Deseja continuar?");
+        }while(resp);
+        */
+
+        //Laço de repetição com condição no final
+        /*
+        for(i = 1; i <= 10; i++){
+           document.write("Mensagem " + i + "<br>");
+        }
+        */
+       
+        //Laço de repetição com condição no final
+        /*
+        for(i = 1; i <= 10; i--){
+           document.write("Mensagem " + i + "<br>");
+        }
+        */
+
+        //break
+        /*
+        for(i = 1; i <= 10; i++){
+            if(i == 5){
+                break;
+            }
+            document.write("Mensagem " + i + "<br>");
+        }
+        */
+
+        //continue
+        /*
+        for(i = 1; i <= 10; i++){
+            if(i == 5){
+                continue;
+            }
+            document.write("Mensagem " + i + "<br>");
+        }
+        */
+
+        //Verificar se um determinado número é par ou ímpar
+        /*
+        let listaPares = [];
+        let listaImpares = [];
+        for(i = 1; i <= 10; i++){
+            if(i % 2 == 0){
+                listaPares.push(i);
+            }else{
+                listaImpares.push(i);
+            }
+        }
+        document.write("Lista de números pares: " + listaPares + "<br>");
+        document.write("Lista de números ímpares: " + listaImpares + "<br>");
+        console.log(listaPares);
+        console.log(listaImpares);
+        */
+        
+        let listaNomes = Array("Ana", "Bruno", "Carlos", "Daniela");
+        //document.write(listaNomes + "<br>");
+        //console.log(listaNomes);
+        //document.write(listaNomes[0] + "<br>");
+        //alert(listaNomes);
+        //alert(listaNomes.length);
+
+        //let teste = ["Bruna", 1, 1.5, true];
+        //console.log(teste);
+
+        //Inserir no inicio do array
+        //listaNomes.unshift("Eduardo");
+        //console.log(listaNomes);
+
+        //Inserir no final do array
+        //listaNomes.push("Fernanda");
+        //console.log(listaNomes);
+
+        //Retira o primeiro elemento do array
+        //listaNomes.shift();
+        //console.log(listaNomes);
+
+        //Retira o último elemento do array
+        //listaNomes.pop();
+        //console.log(listaNomes);
+
+        listaNomes.forEach(valor => {
+            document.write(valor + "<br>");
+        });
+    </script>
+</body>
+</html>

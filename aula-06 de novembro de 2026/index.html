@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        let resp = confirm("Deseja realmente excluir o registro?")
+
+        if(resp){
+            alert("Registro excluído com sucesso!");
+        }else{
+            alert("Registro não foi excluído!");
+        }
+        */
+        
+        /*
+        let n = 1;
+        if(n == 1){
+            alert("Ok");
+        }
+        */
+
+        //Verificar se um determinado número está na faixa entre 20 e 90.
+        /*
+        let n = prompt("Digite um valor qualquer: ");
+        if(n >= 20 && n <= 90){
+            alert("O valor está na faixa entre 20 e 90.");
+        }else{
+            alert("O valor não está na faixa entre 20 e 90.");
+        }
+        */
+
+        //Verificar se um determinado número é divisível por 4 ou 5
+        /*
+        let n = prompt("Digite um valor qualquer: ");
+        if(n % 4 == 0 || n % 5 == 0){
+            alert("O valor é divisível por 4 ou 5.")
+        }else{
+            alert("O valor não é divisível por 4 ou 5.")
+        }
+        */
+
+        //Verificar se uma variável está vazia
+        /*
+        let n = prompt("Digite um valor qualquer: ");
+        if(!(n == '')){
+            alert("Valor de n: " + n);
+        }else{
+            alert("A variável está vazia.")
+        }
+        */
+
+        //Verificar o valor de n
+        /*
+        let n = prompt("Digite um valor qualquer: ");
+        if(n == 1){
+            alert("O valor é igual a um.");
+        }
+        if(n == 2){
+            alert("O valor é igual a dois.");
+        }
+        if(n < 1){
+            alert("O valor é muito baixo.");
+        }
+        if(n > 2){
+            alert("O valor é muito alto.");
+        }
+        */
+
+        //Verificar o salário líquido
+        /*
+        let sb = parseFloat(prompt("Digite o valor do salário: "));
+        let sl;
+        if(sb <= 500){
+            sl = sb - (sb * 5 / 100);
+        }else if(sb <= 1000){
+            sl = sb - (sb * 10 / 100);
+        }else{
+            sl = sb - (sb * 15 / 100);
+        }
+        document.write("Salário bruto: R$ ", sb.toFixed(2), "<br>");
+        document.write("Salário líquido: R$ ", sl.toFixed(2), "<br>");
+        */
+
+        //Verificar o código
+        let codigo = parseInt(prompt("Digite um código: "));
+        switch(codigo){
+            case 1: document.write("Um");
+                break
+            case 3: document.write("Dois");
+                break
+            case 2: document.write("Três");
+                break
+            default: document.write("Código inválido!");
+        }
+    </script>
+</body>
+</html>
